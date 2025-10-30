@@ -20,3 +20,6 @@ I installed things. 😀
 ***Note:***
 
 *This page contains affiliate links to Amazon. Feel free to order your hardware anywhere, but it would be nice of you to use these links so that I get a small reward for writing all this information up. 😉*
+
+* [Ubuntu](ubuntu-installation.md)
+* [Hard Drives](hard-drives.md)
