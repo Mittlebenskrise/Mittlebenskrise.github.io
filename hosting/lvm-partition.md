@@ -1,3 +1,5 @@
+# Extend Default Ubuntu LVM Partition
+
 Another digression at this point, because this took me quite some time to figure out.
 
 After I installed Ubuntu as described [earlier](http://blog.michael-schneider.at/ubuntu-installation), everything seemed to work fine, until I realized that the main drive (mapped to ‘/’ in Ubuntu) was running out of space. Given that I use a 512GB drive, I was a bit shocked.
