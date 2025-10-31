@@ -30,3 +30,4 @@ I installed things. 😀
 * [Setting up your own Domain](/hosting/domain)
 * [Extend Default Ubuntu LVM Partition](/hosting/lvm-partition)
 * [Docker Installation](/hosting/docker)
+* [MariaDB](/hosting/maria-db)
