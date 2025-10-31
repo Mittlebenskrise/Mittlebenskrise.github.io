@@ -23,3 +23,4 @@ I installed things. 😀
 
 * [Ubuntu Installation](/ubuntu-installation/)
 * [Get Idle Hard Drives to Sleep](/hard-drives/)
+* [Setting up your own Domain](/own-domain/)
