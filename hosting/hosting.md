@@ -31,3 +31,4 @@ I installed things. 😀
 * [Extend Default Ubuntu LVM Partition](/hosting/lvm-partition)
 * [Docker Installation](/hosting/docker)
 * [MariaDB](/hosting/maria-db)
+* [Nginx Remote Proxy](/hosting/nginx.md)
