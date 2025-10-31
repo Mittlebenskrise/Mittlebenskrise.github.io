@@ -24,5 +24,5 @@ I installed things. 😀
 * [Ubuntu Installation](/Hosting%20a%20Server%20at%20Home/Ubuntu%20Installation/)
 * [Get Idle Hard Drives to Sleep](/Hosting%20a%20Server%20at%20Home/Get%20Idle%20Hard%20Drives%20to%20Sleep/)
 * [Setting up your own Domain](/Hosting%20a%20Server%20at%20Home/Setting%20up%20your%20own%20Domain/)
-* [Extend Default Ubuntu LVM Partition](/Hosting%20a%20Server%20at%20Home/Extend%20Default%20Ubuntu%20LVM%20Partition/)
+* [Extend Default Ubuntu LVM Partition](/hosting/lvm-partition)
 * [Docker Installation](/hosting/docker)
