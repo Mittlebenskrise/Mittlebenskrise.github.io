@@ -40,7 +40,7 @@ jobs:
         run: |
           ../xlog \
           --build . \
-          --custom.head=header.html \
+          --custom_head=header.html \
           --sitename "mittlebenskrise"
           rm *.md
           chmod -R 0777 .          
