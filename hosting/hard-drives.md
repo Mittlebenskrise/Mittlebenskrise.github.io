@@ -1,4 +1,4 @@
-Posted on [2024-04-19](http://blog.michael-schneider.at/get-idle-hard-drives-to-sleep "15:25") by [Michael Schneider](http://blog.michael-schneider.at/author/ms_admin "View all posts by Michael Schneider")
+# Get Idle Hard Drives to Sleep
 
 At this point, I would like to digress to a topic that was really annoying and took me a bit to resolve. It’s how to spin down hard drives when they are idle. As mentioned [earlier](http://blog.michael-schneider.at/hosting-a-server-at-home), I bought a [5TB USB-3.0 drive from Western Digital](https://amzn.to/4aFJeyc) as an external hard drive for additional storage. When connecting it to the PC, it never stopped spinning. Apart from the wear on the drive, this also produces a constant background noise that I wanted to avoid.
 
