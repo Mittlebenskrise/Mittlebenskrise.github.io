@@ -1,3 +1,5 @@
+# Hosting a Server at Home
+
 I will now start a new series of posts about how I set up my home server. It hosts several applications, is accessible via the web (but only via HTTPS), and solves some problems for me in a nice way.
 
 First of all, I had to figure out what hardware to use. If you already have a PC lying around, fine. If not, there are several options. My main requirements were that it shall run stable (and to a
