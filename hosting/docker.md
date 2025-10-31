@@ -17,7 +17,7 @@ And now you’ll need to reboot.
 
 ## Directory Structure
 
-Next, let’s create the directory structure we need for our setup. This is a suggestion and you can do it completely differently, but all my future posts will work with this setup.
+Next, let’s create the directory structure we need for our setup. This is a suggestion, and you can do it completely differently, but all my future posts will work with this setup.
 
 Create two folders for the Docker Compose files and the runtime data:
 
@@ -28,7 +28,7 @@ Create two folders for the Docker Compose files and the runtime data:
     mkdir docker-compose
     mkdir docker-data
 
-Now, in the Docker Compose directory, let’s create a directory for our secrets, e.g. passwords, which we don’t want everybody to be able to read. So, we will put them in a folder, which can only be accessed by the super user:
+Now, in the Docker Compose directory, let’s create a directory for our secrets, e.g., passwords, which we don’t want everybody to be able to read. So, we will put them in a folder, which can only be accessed by the super user:
 
     cd docker-compose
     mkdir secrets
@@ -48,7 +48,7 @@ Finally, let’s define the global settings, which we will use in our Docker Com
 
     nano .env
 
-There are several settings, we will constantly use, so paste these lines into the empty file and adjust them to your needs:
+There are several settings we will constantly use, so paste these lines into the empty file and adjust them to your needs:
 
     # general server settings
     SERVER_IP=<server-ip>
@@ -86,6 +86,8 @@ This will create an empty executable file and open it in the editor. Now let’s
     
     sudo docker compose --env-file /docker/docker-compose/.env --env-file /docker/docker-compose/secrets/.env up -d
 
-And we are done! Instead of calling Docker Compose directly to start a container, we will from now on just call `docker-compose`.
+And we are done! Instead of calling Docker Compose directly to start a container, we will, from now on, just call `docker-compose`.
 
 Why use a script instead of just calling `docker compose`? Well, for our secrets and general settings to work, we must pass them as environment files. And since I’m lazy and most likely will forget the proper call anyway, it’s easier to just pack that in a script.
+
+#docker
