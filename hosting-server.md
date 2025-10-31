@@ -22,7 +22,7 @@ I installed things. 😀
 *This page contains affiliate links to Amazon. Feel free to order your hardware anywhere, but it would be nice of you to use these links so that I get a small reward for writing all this information up. 😉*
 
 * [Ubuntu Installation](/ubuntu-installation/)
-* [Get Idle Hard Drives to Sleep](/hard-drives/)
+* [Get Idle Hard Drives to Sleep](/Get-Idle-Hard-Drives-to-Sleep/)
 * [Setting up your own Domain](/own-domain/)
 * [Extend Default Ubuntu LVM Partition](/lvm-partition/)
 * [Docker Installation](/docker-installation/)
