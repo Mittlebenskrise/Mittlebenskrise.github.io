@@ -1,6 +1,3 @@
-Docker Installation
-===================
-
 Now that we have the basics prepared, we can install Docker to run our applications.
 
 Installation
