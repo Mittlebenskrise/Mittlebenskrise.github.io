@@ -22,6 +22,8 @@ I installed things. 😀
 > [!NOTE]
 > This page contains affiliate links to Amazon. Feel free to order your hardware anywhere, but it would be nice of you to use these links so that I get a small reward for writing all this information up. 😉
 
+/info This page contains affiliate links to Amazon. Feel free to order your hardware anywhere, but it would be nice of you to use these links so that I get a small reward for writing all this information up. 😉
+
 * [Ubuntu Installation](/Hosting%20a%20Server%20at%20Home/Ubuntu%20Installation/)
 * [Get Idle Hard Drives to Sleep](/Hosting%20a%20Server%20at%20Home/Get%20Idle%20Hard%20Drives%20to%20Sleep/)
 * [Setting up your own Domain](/Hosting%20a%20Server%20at%20Home/Setting%20up%20your%20own%20Domain/)
