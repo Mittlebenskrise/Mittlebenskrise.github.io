@@ -1,4 +1,4 @@
-Posted on [2024-04-24](http://blog.michael-schneider.at/setting-up-your-own-domain "13:53") by [Michael Schneider](http://blog.michael-schneider.at/author/ms_admin "View all posts by Michael Schneider")
+# Setting up your own Domain
 
 To be able to reach your home server from the Internet, you will first need your own domain name for it. I will show the setup using my own setup with [dynv6](http://dynv6.com) and [Ionos](http://ionos.de), but it can be achieved similarly using other providers.
 
