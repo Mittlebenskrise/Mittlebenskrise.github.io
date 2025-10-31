@@ -1,6 +1,3 @@
-Ubuntu Installation
-===================
-
 Since [www.libe.net](http://www.libe.net/) has a very good installation guide [here](https://www.libe.net/en-docker-mini-server) (I linked to their screenshots in the steps below) and even a video [there](https://www.youtube.com/watch?v=os3ysehVzkY), I will just quickly walk through the steps that I followed and that I consider important. Basically, they follow the official Ubuntu installation guide to install Ubuntu from a stick as described [here](https://help.ubuntu.com/community/Installation/FromUSBStick).
 
 When the installation medium is inserted (DVD or USB stick) and the PC is booted, the GRUB bootloader will appear. If not, you might want to consider [these steps](https://www.libe.net/en-boot).
