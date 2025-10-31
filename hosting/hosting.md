@@ -1,11 +1,3 @@
----
-Title: hosting-a-server-at-home
-Summary: How to host a server at home
-Tags:
-    - hosting
-    - server
----
-
 # Hosting a Server at Home
 
 I will now start a new series of posts about how I set up my home server. It hosts several applications, is accessible via the web (but only via HTTPS), and solves some problems for me in a nice way.
@@ -28,6 +20,10 @@ Now that the hardware was there, I could start setting it up. I'll describe the 
 I installed things. 😀
 
 /info This page contains affiliate links to Amazon. Feel free to order your hardware anywhere, but it would be nice of you to use these links so I get a small reward for all this information. 😉
+
+#hosting #server
+
+## Installation Steps
 
 * [Ubuntu Installation](/hosting/ubuntu)
 * [Get Idle Hard Drives to Sleep](/hosting/hard-drives)
