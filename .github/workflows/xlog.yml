@@ -33,14 +33,14 @@ jobs:
 
       - name: Install xlog
         env:
-          XLOG_VERSION: v1.6.6
+          XLOG_VERSION: v1.7.9
         run: curl --location https://github.com/emad-elsaid/xlog/releases/download/${XLOG_VERSION}/xlog-${XLOG_VERSION}-linux-amd64.tar.gz | tar -xz -C ..
 
       - name: Build
         run: |
           ../xlog \
           --build . \
-          --custom_head=header.html \
+          --custom.head=header.html \
           --sitename "mittlebenskrise"
           rm *.md
           chmod -R 0777 .          
