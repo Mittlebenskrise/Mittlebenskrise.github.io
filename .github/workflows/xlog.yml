@@ -41,7 +41,6 @@ jobs:
           ../xlog \
           --build . \
           --sitename "mittlebenskrise"
-          --disabled-extensions=heading
           rm *.md
           chmod -R 0777 .          
 
