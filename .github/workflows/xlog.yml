@@ -41,6 +41,7 @@ jobs:
           ../xlog \
           --build . \
           --sitename "mittlebenskrise"
+          --custom.head=docs/header.html
           rm *.md
           chmod -R 0777 .          
 
