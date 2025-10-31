@@ -1,7 +1,8 @@
+# Docker Installation
+
 Now that we have the basics prepared, we can install Docker to run our applications.
 
-Installation
-------------
+## Installation
 
 Follow the steps described in the official [installation guide](https://docs.docker.com/engine/install/ubuntu/). Use the latest version of Docker using the [apt repository](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository).
 
@@ -14,8 +15,7 @@ And now you’ll need to reboot.
 
     sudo reboot
 
-Directory Structure
--------------------
+## Directory Structure
 
 Next, let’s create the directory structure we need for our setup. This is a suggestion and you can do it completely differently, but all my future posts will work with this setup.
 

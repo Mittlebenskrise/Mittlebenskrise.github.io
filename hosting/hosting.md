@@ -19,12 +19,11 @@ I usually run the PC headless, but can connect it to the HDMI input of one of my
 Now that the hardware was there, I could start setting it up. I'll describe the setup in the sequence I would now consider best, but for sure I experimented a lot and it was not as straightforward when
 I installed things. 😀
 
-***Note:***
-
-*This page contains affiliate links to Amazon. Feel free to order your hardware anywhere, but it would be nice of you to use these links so that I get a small reward for writing all this information up. 😉*
+> [!NOTE]
+> This page contains affiliate links to Amazon. Feel free to order your hardware anywhere, but it would be nice of you to use these links so that I get a small reward for writing all this information up. 😉
 
 * [Ubuntu Installation](/Hosting%20a%20Server%20at%20Home/Ubuntu%20Installation/)
 * [Get Idle Hard Drives to Sleep](/Hosting%20a%20Server%20at%20Home/Get%20Idle%20Hard%20Drives%20to%20Sleep/)
 * [Setting up your own Domain](/Hosting%20a%20Server%20at%20Home/Setting%20up%20your%20own%20Domain/)
 * [Extend Default Ubuntu LVM Partition](/Hosting%20a%20Server%20at%20Home/Extend%20Default%20Ubuntu%20LVM%20Partition/)
-* [Docker Installation](/Hosting%20a%20Server%20at%20Home/Docker%20Installation/)
+* [Docker Installation](docker)
