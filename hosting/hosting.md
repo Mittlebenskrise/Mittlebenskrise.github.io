@@ -1,9 +1,4 @@
----
-title: Hosting a Server at Home
----
-
-
-Hosting a Server at Home
+# Hosting a Server at Home
 
 I will now start a new series of posts about how I set up my home server. It hosts several applications, is accessible via the web (but only via HTTPS), and solves some problems for me in a nice way.
 
@@ -13,7 +8,7 @@ point perform well) and not use too much power.
 I started off with a Raspberry Pi 3+, which I had already, but soon learned that it wouldn't fulfill the first requirement. I think I burned three SD cards before giving up. There were most likely
 just too many read/write accesses.
 
-I then did a little research and figured out that a mini PC would best fulfill my requirements. Now, there are lots of them out there, and which one to choose mostly depends on what you want to do with
+I then did a bit of research and found that a mini PC would best meet my requirements. Now, there are lots of them out there, and which one to choose mostly depends on what you want to do with
 it. I decided to go for the [NiPoGi AK2 Plus](https://amzn.to/3Wm7Gkb). It was not too expensive and has enough power for what I need. I updated it by adding a second 512GB SSD, which I already owned.
 
 Later, I added an external USB HDD as a backup and storage drive for all the data. It is a [5TB USB-3.0 drive from Western Digital](https://amzn.to/4aFJeyc). After figuring out how to get the HDD to go to sleep when not actively
