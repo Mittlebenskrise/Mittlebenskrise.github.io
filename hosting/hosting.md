@@ -1,3 +1,11 @@
+---
+Title: hosting-a-server-at-home
+Summary: How to host a server at home
+Tags:
+    - hosting
+    - server
+---
+
 # Hosting a Server at Home
 
 I will now start a new series of posts about how I set up my home server. It hosts several applications, is accessible via the web (but only via HTTPS), and solves some problems for me in a nice way.
