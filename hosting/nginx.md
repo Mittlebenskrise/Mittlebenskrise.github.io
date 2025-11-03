@@ -4,11 +4,53 @@ With Docker and the database running, it is time to install [nginx](https://ngin
 
 First, create the `docker-compose.yml` file:
 
-`mkdir /docker/docker-compose/nginx/ mkdir /docker/docker-compose/nginx/php mkdir /docker/docker-data/nginx/ nano /docker/docker-compose/nginx/docker-compose.yml`
+```
+mkdir /docker/docker-compose/nginx/
+mkdir /docker/docker-compose/nginx/php
+mkdir /docker/docker-data/nginx/
+nano /docker/docker-compose/nginx/docker-compose.yml
+```
 
 and paste the following content into it:
 
-`services: nginx: image: nginx container_name: nginx-webserver environment: - TZ=$TZ restart: always ports: - "80:80" - "443:443" volumes: - $HTML_DIR:/var/www/html - $DOCKER_DATA_DIR/nginx/config:/etc/nginx/conf.d - $DOCKER_DATA_DIR/nginx/logs:/var/log/nginx/ - $MEDIA_DIR:/media/ networks: - nginx_default php: build: ./php/ container_name: nginx-php restart: unless-stopped ports: - "9000:9000" expose: - 9000 volumes: - $HTML_DIR:/var/www/html/ - $DOCKER_DATA_DIR/nginx/logs/php:/var/log/fpm-php.www.log networks: - nginx_default - mysql networks: nginx_default: driver: bridge mysql: external: true`
+```
+services:
+    nginx:
+        image: nginx
+        container_name: nginx-webserver
+        environment:
+            - TZ=$TZ
+        restart: always
+        ports:
+            - "80:80"
+            - "443:443"
+        volumes:
+            - $HTML_DIR:/var/www/html
+            - $DOCKER_DATA_DIR/nginx/config:/etc/nginx/conf.d
+            - $DOCKER_DATA_DIR/nginx/logs:/var/log/nginx/
+            - $MEDIA_DIR:/media/
+        networks:
+            - nginx_default
+    php:
+        build: ./php/
+        container_name: nginx-php
+        restart: unless-stopped
+        ports:
+            - "9000:9000"
+        expose:
+            - 9000
+        volumes:
+            - $HTML_DIR:/var/www/html/
+            - $DOCKER_DATA_DIR/nginx/logs/php:/var/log/fpm-php.www.log
+        networks:
+            - nginx_default
+            - mysql
+networks:
+    nginx_default:
+        driver: bridge
+    mysql:
+        external: true
+```
 
 Next, configure PHP by creating a Docker file:
 
@@ -16,7 +58,9 @@ Next, configure PHP by creating a Docker file:
 
 and paste the following text into it:
 
-`FROM php:8.2-fpm ADD *.ini /usr/local/etc/php/conf.d/ RUN apt update && apt install -y libicu-dev libxml2-dev libzip-dev && rm -rf /var/lib/apt/lists/* RUN docker-php-ext-configure intl RUN docker-php-ext-install mysqli pdo pdo_mysql intl xml zip RUN docker-php-ext-enable mysqli intl xml zip`
+```
+FROM php:8.2-fpm ADD *.ini /usr/local/etc/php/conf.d/ RUN apt update && apt install -y libicu-dev libxml2-dev libzip-dev && rm -rf /var/lib/apt/lists/* RUN docker-php-ext-configure intl RUN docker-php-ext-install mysqli pdo pdo_mysql intl xml zip RUN docker-php-ext-enable mysqli intl xml zip
+```
 
 Create `docker-browscap.ini` file in `/docker/docker-compose/nginx/php` with the following content:
 
