@@ -232,7 +232,8 @@ sudo systemctl status nginx
 If so, remove this service by calling
 
 ```
-sudo systemctl stop nginx sudo systemctl disable nginx
+sudo systemctl stop nginx
+sudo systemctl disable nginx
 ```
 
 Now, it should work properly after reboot.
