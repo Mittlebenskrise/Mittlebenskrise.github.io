@@ -46,6 +46,7 @@ jobs:
           --custom.head=header.html \
           --disabled-extensions="autolink-pages" \
           --github.url=https://github.com/Mittlebenskrise/Mittlebenskrise.github.io/edit/main \
+          --rss.domain=mittlebenskrise.github.io \
           --rss.description="Senior Software Architect"          
           rm *.md
           chmod -R 0777 .          
