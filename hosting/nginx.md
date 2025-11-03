@@ -98,7 +98,7 @@ Now you will find a new file in `/docker/docker-data/nginx/config/` called `defa
 ```
 #######################################################################################
 #
-# Handle the home.mittlebenskrise.de domain
+# Handle the <domain> domain
 #
 #######################################################################################
 
@@ -116,9 +116,9 @@ map $http_upgrade $connection_upgrade {
 }
 
 # setup personalized error pages
-error_page 403 https://home.mittlebenskrise.de/error/403.html;
-error_page 404 https://home.mittlebenskrise.de/error/404.html;
-error_page 500 502 503 504 https://home.mittlebenskrise.de/error/50x.html;
+error_page 403 https://<domain>/error/403.html;
+error_page 404 https://<domain>/error/404.html;
+error_page 500 502 503 504 https://<domain>/error/50x.html;
 
 
 # Redirect all http traffic of the domain to https, so that only SSL access is possible from outside
@@ -126,7 +126,7 @@ server {
     listen 80;
     listen [::]:80;
 
-    server_name *.home.mittlebenskrise.de;
+    server_name *.<domain>;
 
     return 301 https://$host$request_uri;
 }
@@ -136,7 +136,7 @@ server {
     # process the global SSL settings
     include /etc/nginx/conf.d/ssl.config;
 
-    server_name phpmyadmin.home.mittlebenskrise.de;
+    server_name phpmyadmin.<domain>;
 
     # add the Authelia configuration
     include /etc/nginx/conf.d/authelia-location.config;
@@ -160,13 +160,13 @@ server {
     # process the global SSL settings
     include /etc/nginx/conf.d/ssl.config;
 
-    server_name home.mittlebenskrise.de;
+    server_name <domain>;
 
     # process the default proxy settings
     include /etc/nginx/conf.d/proxy.config;
 
     location / {
-      return 301 http://www.home.mittlebenskrise.de$request_uri;
+      return 301 http://www.<domain>$request_uri;
     }
 }
 
@@ -175,7 +175,7 @@ server {
     # process the global SSL settings
     include /etc/nginx/conf.d/ssl.config;
 
-    server_name *.home.mittlebenskrise.de;
+    server_name *.<domain>;
 
     location / {
       return 404;
@@ -195,8 +195,8 @@ server {
     listen [::]:80;
     listen 443 ssl;
     listen [::]:443 ssl;
-    ssl_certificate     /var/www/html/ssl/home.mittlebenskrise.de/server.crt;
-    ssl_certificate_key /var/www/html/ssl/home.mittlebenskrise.de/server.key;
+    ssl_certificate     /var/www/html/ssl/<domain>/server.crt;
+    ssl_certificate_key /var/www/html/ssl/<domain>/server.key;
 
     server_name localhost 192.168.178.26;
 
