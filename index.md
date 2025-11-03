@@ -1,4 +1,6 @@
-# Digital Garden
+# Wasted Space
+
+*A software architect's little place on the web…*
 
 This is the start page of my digital garden.
 
