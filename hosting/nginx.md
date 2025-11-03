@@ -93,7 +93,7 @@ cd /docker/docker-compose/nginx/ docker-compose
 
 You will end up with two new containers, `nginx-webserver` and `nginx-php`.
 
-Now you will find a new file in `/docker/docker-data/nginx/config/` called `default.conf`. Change it to look like this:
+Now you will find a new file in `/docker/docker-data/nginx/config/` called `default.conf`. Change it to look like this (replace  `<domain>` accordingly):
 
 ```
 #######################################################################################
