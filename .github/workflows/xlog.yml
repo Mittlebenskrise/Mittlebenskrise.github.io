@@ -42,7 +42,7 @@ jobs:
           --build . \
           --custom.head=header.html \
           --disabled-extensions="autolink-pages" \
-          --github.url=https://github.com/Mittlebenskrise/Mittlebenskrise.github.io/edit/master \
+          --github.url=https://github.com/Mittlebenskrise/Mittlebenskrise.github.io/edit/main \
           --sitename "mittlebenskrise"
           rm *.md
           chmod -R 0777 .          
