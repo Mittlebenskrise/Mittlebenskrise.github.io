@@ -42,6 +42,7 @@ jobs:
           --build . \
           --sitename "Wasted Space" \
           --theme="dark" \
+          --codestyle="github-dark" \
           --custom.head=header.html \
           --disabled-extensions="autolink-pages" \
           --github.url=https://github.com/Mittlebenskrise/Mittlebenskrise.github.io/edit/main \
