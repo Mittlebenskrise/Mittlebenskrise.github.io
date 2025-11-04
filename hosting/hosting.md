@@ -5,10 +5,10 @@ I will now start a new series of posts about how I set up my home server. It hos
 First of all, I had to figure out what hardware to use. If you already have a PC lying around, fine. If not, there are several options. My main requirements were that it shall run stably (and to a
 point perform well) and not use too much power.
 
-I started off with a Raspberry Pi 3+, which I had already, but soon learned that it wouldn't fulfill the first requirement. I think I burned three SD cards before giving up. There were most likely
+I started with a Raspberry Pi 3+, which I already had, but soon learned it wouldn't meet the first requirement. I think I burned three SD cards before giving up. There were most likely
 just too many read/write accesses.
 
-I then did a bit of research and found that a mini PC would best meet my requirements. Now, there are lots of them out there, and which one to choose mostly depends on what you want to do with
+I then did some research and found that a mini PC would best meet my requirements. Now, there are lots of them out there, and which one to choose mostly depends on what you want to do with
 it. I decided to go for the [NiPoGi AK2 Plus](https://amzn.to/3Wm7Gkb). It was not too expensive and has enough power for what I need. I updated it by adding a second 512GB SSD, which I already owned.
 
 Later, I added an external USB HDD as a backup and storage drive for all the data. It is a [5TB USB-3.0 drive from Western Digital](https://amzn.to/4aFJeyc). After figuring out how to get the HDD to go to sleep when not actively
@@ -33,3 +33,4 @@ I installed things. 😀
 * [Portainer Installation](/hosting/portainer)
 * [MariaDB](/hosting/maria-db)
 * [Nginx Remote Proxy](/hosting/nginx)
+* [Apache Web Server](/hosting/apache)
