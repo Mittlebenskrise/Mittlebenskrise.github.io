@@ -7,7 +7,7 @@ mkdir ~/html/.well-known
 mkdir ~/html/.well-known/acme-challenge
 ```
 
-Call  certbot to create the certificates (add the wildcard sub-subdomain only if you intend to work with [/hosting/sub-subdomains](Sub-Subdomain for NGinx)).
+Call  certbot to create the certificates (add the wildcard sub-subdomain only if you intend to work with [Sub-Subdomain for NGinx](/hosting/sub-subdomains)).
 
 ```
 sudo certbot certonly --manual -d <domain>,*.<domain>
