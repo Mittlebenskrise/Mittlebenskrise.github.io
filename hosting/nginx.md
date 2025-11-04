@@ -88,7 +88,8 @@ wget https://browscap.org/stream?q=BrowsCapINI -O /docker/docker-compose/nginx/p
 Start nginx by calling
 
 ```
-cd /docker/docker-compose/nginx/ docker-compose
+cd /docker/docker-compose/nginx/
+docker-compose
 ```
 
 You will end up with two new containers, `nginx-webserver` and `nginx-php`.
