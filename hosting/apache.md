@@ -126,4 +126,4 @@ Point your browser to `http://<domain>/phpinfo.php` and it will display the va
 
 ## Certificate
 
-If you want to use `https`, you will need an SSL certificate. The steps are described in the chapter [SSL Certificates](ssl)
+If you want to use `https`, you will need an SSL certificate. The steps are described in the chapter [SSL Certificates](/hosting/ssl)
