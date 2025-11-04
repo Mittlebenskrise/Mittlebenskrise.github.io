@@ -59,5 +59,4 @@ if `hdparam` works or otherwise
 
     sudo hd-idle -t sdc
 
-**_Note:_**  
-_This page contains affiliate links to Amazon. Feel free to order your hardware anywhere, but it would be nice of you to use these links so that I get a small reward for writing all this information up._ 😉
+/info _This page contains affiliate links to Amazon. Feel free to order your hardware anywhere, but it would be nice of you to use these links so that I get a small reward for writing all this information up._ 😉
