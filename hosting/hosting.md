@@ -30,5 +30,6 @@ I installed things. 😀
 * [Setting up your own Domain](/hosting/domain)
 * [Extend Default Ubuntu LVM Partition](/hosting/lvm-partition)
 * [Docker Installation](/hosting/docker)
+* [Portainer Installation](/hosting/portainer)
 * [MariaDB](/hosting/maria-db)
 * [Nginx Remote Proxy](/hosting/nginx)
