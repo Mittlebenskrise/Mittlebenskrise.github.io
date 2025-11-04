@@ -84,5 +84,6 @@ Now paste and execute the modified script in the “SQL” tab.
 
 /info To install additional themes, download the matching ZIP file and unzip it (e.g., by calling `unzip darkwolf-5.2.zip`). 
 Then, copy the unzipped folder into the container by calling
-
-    sudo docker cp darkwolf phpmyadmin:/var/www/html/themes/darkwolf
+```
+sudo docker cp darkwolf phpmyadmin:/var/www/html/themes/darkwolf
+```
