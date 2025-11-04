@@ -75,15 +75,14 @@ Now you can open a browser to log into the database server by entering the URL
 
 Log in as user `root` with the password you configured earlier (`<db_root_password>`).
 
-Next, the configuration tables for phpMyAdmin need to be created. For that, a new user `pma` needs to be created on the accounts tab. Download the database script from [GitHub](https://github.com/phpmyadmin/phpmyadmin/blob/master/resources/sql/create_tables.sql). At the top the following lines need to be activated and `@localhost` needs to be removed:
+Next, the configuration tables for phpMyAdmin need to be created. For that, a new user `pma` needs to be created on the accounts tab. Download the database script from [GitHub](https://github.com/phpmyadmin/phpmyadmin/blob/master/resources/sql/create_tables.sql). At the top, the following lines need to be activated, and `@localhost` needs to be removed:
 
     GRANT SELECT, INSERT, DELETE, UPDATE, ALTER ON `phpmyadmin`.* TO
        'pma';
 
 Now paste and execute the modified script in the “SQL” tab.
 
-**_Note_**
-
-To install additional themes, download the matching ZIP file and unzip it (e.g., by calling `unzip darkwolf-5.2.zip`). Then copy the unzipped folder into the container by calling
+/info To install additional themes, download the matching ZIP file and unzip it (e.g., by calling `unzip darkwolf-5.2.zip`). 
+Then, copy the unzipped folder into the container by calling
 
     sudo docker cp darkwolf phpmyadmin:/var/www/html/themes/darkwolf
