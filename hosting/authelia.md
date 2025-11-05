@@ -1,4 +1,4 @@
-# Authelia
+# Authelia Authentication Server
 
 ## Installation
 
