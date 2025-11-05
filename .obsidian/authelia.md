@@ -1,4 +1,6 @@
-Docker config
+# Authelia
+
+## Installation
 
 ```
 secrets:
@@ -39,7 +41,10 @@ networks:
     external: true
 ```
 
+## Password generation
+
 Generate password for user file:
+
 ```
 sudo docker run authelia/authelia:latest authelia crypto hash generate argon2 --password 'password'
 ```
