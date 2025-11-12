@@ -35,3 +35,4 @@ I installed things. 😀
 * [Nginx Remote Proxy](/hosting/nginx)
 * [Apache Web Server](/hosting/apache)
 * [Authelia Authentication Server](/hosting/authelia)
+* [Webmin Server Monitoring Tool](/hosting/webmin)
